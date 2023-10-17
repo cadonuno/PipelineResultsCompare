@@ -12,7 +12,7 @@ filteredResults = 0
 def print_help():
     print("""pipeline_results_compare.py -r1 <results1 json file> -r2 <results2 json file> [-of <output json file> -fs <fail on severity>]"
         Checks if there are any issues present in <results1 json file> that aren't present in <results 2 json file>. 
-          Can filter by severity wsith the <fail on severity> parameter.
+          Can filter by severity with the <fail on severity> parameter.
           Can save a new results file by providing output json file>
 """)
     sys.exit()
