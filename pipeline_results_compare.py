@@ -44,7 +44,7 @@ def handle_results():
     global totalResults
     global filteredResults
     if filteredResults > 0:
-        print(f'[FAILURE] {filteredResults}/{totalResults} finding unmitigated finding exceeding severities detected.')
+        print(f'[FAILURE] {filteredResults}/{totalResults} unmitigated finding(s) exceeding severitie(s) detected.')
         sys.exit(filteredResults)
     else:
         print(f'[INFO] All {totalResults} finding are mitigated or do not exceed the severity threshold.')
