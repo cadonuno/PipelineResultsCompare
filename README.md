@@ -10,10 +10,6 @@ Clone this repository:
 
     git clone https://github.com/cadonuno/PipelineResultsCompare
 
-Install dependencies:
-
-    cd PipelineResultsCompare
-    pip install -r requirements.txt
 
 (Optional) Save Veracode API credentials in `~/.veracode/credentials`
 
@@ -31,7 +27,7 @@ Otherwise you will need to set environment variables:
 
     export VERACODE_API_KEY_ID=<YOUR_API_KEY_ID>
     export VERACODE_API_KEY_SECRET=<YOUR_API_KEY_SECRET>
-    python vcpipemit.py (arguments)
+    python pipeline_results_compare.py (arguments)
 
 Arguments supported include:
 
